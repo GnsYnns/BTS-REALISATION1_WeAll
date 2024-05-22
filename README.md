@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Le projet **BTS-REALISATION1_WeAll** est une application web développée pour répondre à des besoins spécifiques dans le domaine de la gestion de projet. Il s'agit d'un projet académique réalisé par des étudiants en BTS Informatique. L'objectif principal de ce projet est de fournir une plateforme pour faciliter la collaboration entre les membres d'une équipe de projet, en offrant des fonctionnalités telles que la gestion des tâches, la communication, et le suivi des progrès.
+Le projet **BTS-REALISATION1_WeAll** est une application web développée en Laravel 10. Il s'agit d'un projet académique réalisé en BTS SIO option SLAM. L'objectif principal de ce projet est de fournir une plateforme social de type forum/réseau social.
 
 ## Installation
 
 ### Prérequis
 
-- Node.js et npm installés sur votre machine.
+- Node.js, composer et npm installés sur votre machine.
 - Un serveur local ou un environnement de développement complet.
 
 ### Étapes d'installation
@@ -21,9 +21,11 @@ cd BTS-REALISATION1_WeAll
 
 3. Installez les dépendances du projet :
 npm install
+composer install
 
 4. Démarrez le serveur de développement :
-npm start
+npm run dev
+php artisan serv
 
 
 Votre application devrait maintenant être accessible localement à l'adresse `http://localhost:3000`.
@@ -32,13 +34,13 @@ Votre application devrait maintenant être accessible localement à l'adresse `h
 
 ### Exemples de code
 
-Pour créer une nouvelle tâche, vous pouvez utiliser le formulaire de tâche disponible sur la page d'accueil. Une fois soumis, la tâche apparaîtra dans la liste des tâches et pourra être modifiée ou supprimée par les membres de l'équipe.
+Pour créer un nouveau post, vous pouvez utiliser le formulaire de post disponible sur la page d'accueil. Une fois soumis, la post apparaîtra dans la liste des posts et pourra être modifiée ou supprimée par les membres de l'équipe.
 
 ### Fonctionnalités clés
 
-- **Gestion des tâches** : Ajouter, modifier, et supprimer des tâches.
-- **Communication** : Envoyer des messages entre les membres de l'équipe.
-- **Suivi des progrès** : Visualiser l'état des tâches et le progrès de l'équipe.
+- **Gestion des posts** : Ajouter des posts.
+- **Communication** : Envoyer des commentaires et liker des posts.
+- **Gestion du profil** : Configurer votre profil.
 
 ## Contribution
 
@@ -63,14 +65,10 @@ npm test
 
 Nous nous efforçons de maintenir une couverture de test de 100% pour garantir la qualité et la fiabilité de notre code.
 
-## Support
-
-Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à contacter l'équipe de développement via l'adresse e-mail fournie dans le fichier `README.md` du dépôt.
-
 ## Licence
 
 Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le redistribuer, tant que vous incluez la licence originale et que vous attribuez les auteurs originaux.
 
 ## Conclusion
 
-**BTS-REALISATION1_WeAll** est un projet passionné qui vise à simplifier la gestion de projet pour les équipes. Nous sommes toujours à la recherche de nouvelles idées et de collaborateurs pour continuer à améliorer notre plateforme. Rejoignez-nous et contribuez à rendre la gestion de projet plus efficace pour tous.
+**BTS-REALISATION1_WeAll** est un projet passionné qui vise à pouvoir créer un espace de libre échange. Nous sommes toujours à la recherche de nouvelles idées et de collaborateurs pour continuer à améliorer notre plateforme.
