@@ -14,18 +14,18 @@ Le projet **BTS-REALISATION1_WeAll** est une application web développée en Lar
 ### Étapes d'installation
 
 1. Clonez le dépôt sur votre machine locale en utilisant la commande suivante :
-git clone https://github.com/GnsYnns/BTS-REALISATION1_WeAll.git
+- git clone https://github.com/GnsYnns/BTS-REALISATION1_WeAll.git
 
 2. Accédez au dossier du projet :
-cd BTS-REALISATION1_WeAll
+- cd BTS-REALISATION1_WeAll
 
 3. Installez les dépendances du projet :
-npm install
-composer install
+- npm install
+- composer install
 
 4. Démarrez le serveur de développement :
-npm run dev
-php artisan serv
+- npm run dev
+- php artisan serv
 
 
 Votre application devrait maintenant être accessible localement à l'adresse `http://localhost:3000`.
